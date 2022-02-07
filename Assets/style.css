@@ -1,0 +1,56 @@
+/* CSS stylesheet */
+
+.head {
+    background-color: blue;
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* the below styling is for the left area with the search area and past searches */
+
+.searcharea{
+    float: left;
+    margin-left: 20px;
+    width: 20%;
+}
+
+.searchtitle {
+    color: darkblue;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#city {
+    background-color: lightgray;
+    border-style: solid;
+    border-width: 1px;
+    /* this is the actual box-area that you will type the location into */
+}
+
+.searchbtn {
+    text-align: center;
+    background-color:mediumblue ;
+    color: white;
+    font-size: 130%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+#search-history {
+    background-color: lightgrey;
+    border-radius: 8px;
+    color: black;
+}
+
+/* Everything below here is styling for the main content area */
+
+.content {
+    background-color: lightgray;
+    display: inline-block;
+    margin-left: 20px;
+    width: 75%;
+    margin-top: 40px;
+}
